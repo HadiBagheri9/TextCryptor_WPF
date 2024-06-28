@@ -13,7 +13,7 @@
                     <RichTextBox Background="#303030" Height="200" Width="auto" FontSize="24" Foreground="WhiteSmoke" Name="txtInput"/>
                 </Border>
                 <Border BorderBrush="#303060" BorderThickness="10">
-                    <TextBlock Background="#303030" Height="390" Width="auto" FontSize="24" Foreground="WhiteSmoke" Name="txtOutput"/>
+                    <RichTextBox Background="#303030" Height="390" Width="auto" FontSize="24" Foreground="WhiteSmoke" Name="txtOutput" IsReadOnly="True"/>
                 </Border>
             </StackPanel>
             <WrapPanel>
