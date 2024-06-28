@@ -6,11 +6,11 @@
         xmlns:local="clr-namespace:TextCryptor_WPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="600">
-    <Grid Background="#101010">
+    <Grid Background="#202020">
         <StackPanel>
             <StackPanel Margin="10">
                 <Border BorderBrush="#303060" BorderThickness="10">
-                    <RichTextBox Background="#303030" Height="200" Width="auto" FontSize="24" Foreground="WhiteSmoke" Name="txtInput"/>
+                    <RichTextBox Background="#303030" Height="200" Width="auto" FontSize="24" Foreground="WhiteSmoke" Name="txtInput" />
                 </Border>
                 <Border BorderBrush="#303060" BorderThickness="10">
                     <RichTextBox Background="#303030" Height="390" Width="auto" FontSize="24" Foreground="WhiteSmoke" Name="txtOutput" IsReadOnly="True"/>
