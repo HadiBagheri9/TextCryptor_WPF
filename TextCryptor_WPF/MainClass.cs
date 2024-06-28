@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace TextCryptor_WPF
 {
@@ -12,6 +9,7 @@ namespace TextCryptor_WPF
         {
             byte[] textBytes = Encoding.UTF8.GetBytes(text);
             string str = Convert.ToBase64String(textBytes);
+
             for (int i = 0; i < layers - 1; i++)
             {
                 textBytes = Encoding.UTF8.GetBytes(str);
